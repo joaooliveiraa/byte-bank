@@ -22,11 +22,13 @@ export class TransferenciaService {
     return this.HttpClient.get<Transferencia[]>(this.url);
   }
 
-  adicionar(transferencia: any) {
+  adicionar(transferencia: Transferencia) {
 
     this.tratarDados(transferencia);
 
-    this.transferencias.push(transferencia);
+    return this.HttpClient.post<Transferencia>(this.url, transferencia);
+
+    //this.transferencias.push(transferencia);
 
   }
 
