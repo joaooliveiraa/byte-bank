@@ -14,7 +14,7 @@ Tela extrato.
 
 ![Screenshot](home.PNG)
 
-Tela Nova Translação
+Tela Nova Transação.
 
 ![Screenshot](nova.PNG)
 
